@@ -1,4 +1,4 @@
-import Story from '../pages/Story'
+import Story from './Story'
 
 const Stories = ({stories}) => (
     <ol>

@@ -1,7 +1,7 @@
 import React from 'react'
-import {fetchStories} from '../api'
-import Stories from '../pages/Stories'
-import Nav from '../pages/Nav'
+import {fetchStories} from '../graphql/graphql-apis'
+import Stories from '../components/Stories'
+import Nav from '../components/Nav'
 
 
 const Index = (props) => {
